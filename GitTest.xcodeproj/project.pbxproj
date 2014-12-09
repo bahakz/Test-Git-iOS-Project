@@ -14,6 +14,7 @@
 		8F734CB51A378F2C00725B88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F734CB41A378F2C00725B88 /* Images.xcassets */; };
 		8F734CB81A378F2C00725B88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F734CB61A378F2C00725B88 /* LaunchScreen.xib */; };
 		8F734CC41A378F2C00725B88 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F734CC31A378F2C00725B88 /* GitTestTests.m */; };
+		8F734CCF1A3791A600725B88 /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F734CCE1A3791A600725B88 /* TestFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8F734CBD1A378F2C00725B88 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F734CC21A378F2C00725B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F734CC31A378F2C00725B88 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		8F734CCD1A3791A600725B88 /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
+		8F734CCE1A3791A600725B88 /* TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8F734CB41A378F2C00725B88 /* Images.xcassets */,
 				8F734CB61A378F2C00725B88 /* LaunchScreen.xib */,
 				8F734CA71A378F2C00725B88 /* Supporting Files */,
+				8F734CCD1A3791A600725B88 /* TestFile.h */,
+				8F734CCE1A3791A600725B88 /* TestFile.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F734CB01A378F2C00725B88 /* ViewController.m in Sources */,
+				8F734CCF1A3791A600725B88 /* TestFile.m in Sources */,
 				8F734CAD1A378F2C00725B88 /* AppDelegate.m in Sources */,
 				8F734CAA1A378F2C00725B88 /* main.m in Sources */,
 			);
